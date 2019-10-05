@@ -10,7 +10,7 @@ let package = Package(
             targets: ["Mqtt"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/vapor/sockets", from: "2.2.0")
+        .package(url: "https://github.com/vapor/sockets", from: "2.2.4")
     ],
     targets: [
         .target(
